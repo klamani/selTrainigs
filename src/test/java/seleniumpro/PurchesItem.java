@@ -61,5 +61,6 @@ public class PurchesItem {
 		System.out.println("Your iteam detailes are like  :" + itemDetails);
 		driver.findElement(By.xpath("//*[@class=\"confirm btn btn-lg btn-primary\"]")).click();
 		Thread.sleep(5000);
+		driver.quit();
 	}
 }
